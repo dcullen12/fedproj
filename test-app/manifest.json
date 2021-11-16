@@ -1,0 +1,10 @@
+{
+    "name": "Sample User App",
+    "description": "Test Federated Learning without peeking into user data",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "./dist/start.js"
+    },
+    "permissions": ["storage"]
+  }

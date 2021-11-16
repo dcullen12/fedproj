@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@tensorflow/tfjs": "^3.9.0",
+    "Buffer": "^0.0.0",
+    "buffer": "^6.0.3",
+    "cajon": "^0.4.4",
+    "exifreader": "^3.16.0",
+    "image-type": "^4.1.0",
+    "jpeg-js": "^0.4.3",
+    "pngjs": "^6.0.0",
+    "string-hash": "^1.1.3",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.8.0"
+  },
+  "scripts": {
+    "build": "webpack --config webpack-config.js",
+    "watch": "webpack --config webpack-config-dev.js"
+  }
+}

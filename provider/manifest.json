@@ -1,0 +1,21 @@
+{
+    "background": {
+       "service_worker": "./dist/provider.js"
+    },
+    "description": "Federated Learning without peeking into user data",
+    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5fDwR50BH6e+LHe1Jn97M3Kk7OBQ+snIuaOwgSSzAYcqRZsaKMgPj7puJs87DCXylXf5X8ZF46TaDvi4cwo5iE+uRst4Nw3Wt6ed91gyBoVzTGTsU+DXKbwJ6oPXw3bEekTIFiSL9js20ntiCi9ZoPnVGeRBiA4SL568e6sk6XgFAWn2rfsiHjYfXNZuGx5wXb/alD+9iVyLnAucsl7ekQYZM5oIPKxJl1HRN12EoXmk74ljdPPXQVU1YVJSHMybo7ahWVcTetDNgJB7eV7ZZmDeXNm099TvwqHCxzBvw0otewHsjKs8yxYK4VH1Pn2Ef7C+nIfdGasrTH5Q0STb2wIDAQAB",
+    "manifest_version": 3,
+    "name": "Federated Learning Project",
+    "permissions": [ "storage", "history", "identity", "identity.email", "downloads", "tabs" ],
+    "host_permissions": [ "*://*/*" ],
+    "version": "1.0",
+    "oauth2": {
+      "client_id": "65312332568-mc8h6af5n045ja26rlostgmlpuert528.apps.googleusercontent.com",
+      "scopes": [
+          "profile email",
+          "https://www.googleapis.com/auth/photoslibrary.readonly",
+          "https://www.googleapis.com/auth/drive"
+      ]
+  }
+ }
+ 
