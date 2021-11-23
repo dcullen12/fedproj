@@ -46,8 +46,8 @@ export async function trainOnPhotos(model, width, height, compile){
         compile: compile,
         dataRequest: {
             source: "photos",
-            width: 512,
-            height: 1024
+            width: width,
+            height: height
         },
     })
 }
